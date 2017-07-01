@@ -33,7 +33,7 @@ nav.flex > a {
   -webkit-user-select: none;  /* Chrome all / Safari all */
   -moz-user-select: none;     /* Firefox all */
   -ms-user-select: none;      /* IE 10+ */
-  user-select: none;          /* Likely future */  
+  user-select: none;          /* Likely future */
 }
 
 nav a.active {
@@ -66,15 +66,26 @@ nav [class^="icon-"]::before {
 }
 
 
-.home {
+section {
+  display: none;
+}
+
+section.active {
+  display: block;
+}
+
+
+section {
   width: 95%;
   max-width: 900px;
   margin: 0 auto;
 }
 
-.home input,
-.ofertas .card {
+input,
+input:focus,
+.card {
   border: none;
+  color: #333;
 }
 
 .home .filter {
@@ -108,4 +119,19 @@ nav [class^="icon-"]::before {
 
 .ofertas img {
   width: 100%;
+}
+
+
+
+
+
+.profile {
+  color: #fff;
+}
+
+.dropimage {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
 }

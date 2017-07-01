@@ -7,8 +7,9 @@ main {
   margin-bottom: 6em;
 }
 
-h1 {
-  color: #fff
+h1, h2, h3, h4 {
+  line-height: 1;
+  padding-top: 0;
 }
 
 nav {
@@ -76,9 +77,10 @@ section.active {
 
 
 section {
+  color: #fff;
   width: 95%;
   max-width: 900px;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 input,
@@ -90,6 +92,10 @@ input:focus,
 
 .home .filter {
   margin-top: .3em;
+}
+
+.home .sub {
+  margin: 5px 0 10px;;
 }
 
 .home .filter .button {
@@ -107,7 +113,7 @@ input:focus,
 }
 
 .ofertas a {
-  color: inherit;
+  color: #333;
   display: block;
 }
 
@@ -134,4 +140,9 @@ input:focus,
   padding-bottom: 100%;
   margin: 0 auto;
   background-color: #fff;
+}
+
+.profile label {
+  display: inline-block;
+  margin-bottom: 10px;
 }

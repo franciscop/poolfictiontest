@@ -1,0 +1,52 @@
+html, body {
+  background: #25a;
+}
+
+h1 {
+  color: #fff
+}
+
+
+.home {
+  width: 95%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.home input,
+.ofertas .card {
+  border: none;
+}
+
+.home .filter {
+  margin-top: .3em;
+}
+
+.home .filter .button {
+  background: #fff;
+  color: #333;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: .6em;
+}
+
+.home .filter .button::before {
+  margin: 0;
+}
+
+.ofertas a {
+  color: inherit;
+  display: block;
+}
+
+.ofertas h2,
+.ofertas h3 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.ofertas img {
+  width: 100%;
+}

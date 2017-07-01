@@ -2,6 +2,10 @@ html, body {
   background: #25a;
 }
 
+main {
+  margin-bottom: 6em;
+}
+
 h1 {
   color: #fff
 }

@@ -3,6 +3,7 @@ html, body {
 }
 
 main {
+  display: block;
   margin-bottom: 6em;
 }
 

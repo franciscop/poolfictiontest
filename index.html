@@ -12,14 +12,26 @@
   <body>
 
     <nav class="flex four">
-      <a><i class="icon-home"></i><span>Inicio</span></a>
-      <a><i class="icon-flight"></i><span>Reservas</span></a>
-      <a><i class="icon-mail"></i><span>Mensajes</span></a>
-      <a><i class="icon-user"></i><span>Perfil</span></a>
+      <a class="active" data-screen="home">
+        <img src="img/icons/general/home.svg">
+        <span>Inicio</span>
+      </a>
+      <a data-screen="trips">
+        <img src="img/icons/general/reservation.svg">
+        <span>Reservas</span>
+      </a>
+      <a data-screen="messages">
+        <img src="img/icons/general/message.svg">
+        <span>Mensajes</span>
+      </a>
+      <a data-screen="profile">
+        <img src="img/icons/general/user.svg">
+        <span>Perfil</span>
+      </a>
     </nav>
 
     <main>
-      <section class="home">
+      <section class="home active">
         <h1>Pool Fiction</h1>
         <!-- <input placeholder="Actividad"> -->
         <form>
@@ -71,9 +83,9 @@
           </div>
         </div>
       </section>
-      <!-- <section class=""></section>
-      <section class=""></section>
-      <section class=""></section> -->
+      <section class="trips"></section>
+      <section class="messages"></section>
+      <section class="profile"></section>
     </main>
 
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>

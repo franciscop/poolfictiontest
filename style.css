@@ -12,12 +12,14 @@ h1, h2, h3, h4 {
   padding-top: 0;
 }
 
-nav {
+nav.flex {
   text-align: center;
   top: auto;
   bottom: 0;
   height: 4em;
   padding: 0;
+  width: 100%;
+  margin: 0;
 }
 
 nav.flex > a {
@@ -127,6 +129,36 @@ input:focus,
   width: 100%;
 }
 
+
+.trips a {
+  color: #333;
+  display: block;
+}
+
+
+
+
+.messages .card {
+  display: block;
+}
+
+.messages .card > img {
+  float: left;
+  display: inline;
+  width: 100px;
+}
+
+.messages .info {
+  display: block;
+  vertical-align: top;
+  padding: 15px 10px 15px 110px;
+}
+
+.messages .info p {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
 
 
 

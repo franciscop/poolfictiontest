@@ -137,6 +137,12 @@ input:focus,
 
 
 
+.place img {
+  width: 100%;
+}
+
+
+
 
 .messages .card {
   display: block;
